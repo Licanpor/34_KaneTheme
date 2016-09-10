@@ -1,3 +1,16 @@
 .bg-green{
 	background-color: #28a452;
 }
+.bg-img{
+	background-image: url("../img/carousel-bg.jpg");
+	background-size: cover;
+  	background-repeat: no-repeat;
+ 	background-position: center;
+}
+
+.fs-1{
+	font-size: 4em;
+}
+.t-w{
+	color:white;
+}
