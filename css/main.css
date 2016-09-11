@@ -1,8 +1,29 @@
+.fs-1{
+	font-size: 4em;
+}
+.t-w{
+	color:white;
+}
+.t-g{
+	color:gray;
+}
+.t-o{
+	color: #FA6900;
+}
+.t-b{
+	color:#003348; 
+}
+.brdr-g{
+	border: 1px solid #28a452;
+}
 .bg-green{
 	background-color: #28a452;
 }
 .bg-blue{
 	background-color: #003348;
+}
+.bg-w{
+	background-color: white;
 }
 .bg-img{
 	background-image: url("../img/carousel-bg.jpg");
@@ -16,19 +37,10 @@
 .bg-oop{
 	background-color: rgba(250,105,0, 0.7);
 }
-.fs-1{
-	font-size: 4em;
-}
-.t-w{
-	color:white;
-}
-.t-g{
-	color:gray;
-}
-.t-o{
-	color: #FA6900;
-}
 /*Paleta de colores*/
+.bg-cp1, .bg-cp2, .bg-cp3, .bg-cp4, .bg-cp5, .bg-cp6, .bg-cp7, .bg-cp8, .bg-cp9, .bg-cp10, .bg-cp11, .bg-cp12, .bg-cp13, .bg-cp14, .bg-cp15, .bg-cp16, .bg-cp17, .bg-cp18, .bg-cp19, .bg-cp20, .bg-cp21, .bg-cp22, .bg-cp23, .bg-cp24, .bg-cp25{
+	height: 150px;
+}
 /*bgS RENGLON 1*/
 .bg-cp1{
 	background-color:#69D2E7;
@@ -108,7 +120,4 @@
 }
 .bg-cp25{
 	background-color:#DC403B;
-}
-.bg-cp1, .bg-cp2, .bg-cp3, .bg-cp4, .bg-cp5, .bg-cp6, .bg-cp7, .bg-cp8, .bg-cp9, .bg-cp10, .bg-cp11, .bg-cp12, .bg-cp13, .bg-cp14, .bg-cp15, .bg-cp16, .bg-cp17, .bg-cp18, .bg-cp19, .bg-cp20, .bg-cp21, .bg-cp22, .bg-cp23, .bg-cp24, .bg-cp25{
-	height: 150px;
 }
