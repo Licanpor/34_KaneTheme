@@ -1,6 +1,9 @@
 .bg-green{
 	background-color: #28a452;
 }
+.bg-blue{
+	background-color: #002436;
+}
 .bg-img{
 	background-image: url("../img/carousel-bg.jpg");
 	background-size: cover;
@@ -13,6 +16,7 @@
 .t-w{
 	color:white;
 }
+/*Paleta de colores*/
 /*bgS RENGLON 1*/
 .bg-cp1{
 	background-color:#69D2E7;
@@ -26,7 +30,7 @@
 .bg-cp4{
 	background-color:#F38630;
 }
-.bg-cp5{
+.bg-cp5, .progress-bar-orng{
 	background-color:#FA6900;
 }
 /*bgS RENGLON 2*/
