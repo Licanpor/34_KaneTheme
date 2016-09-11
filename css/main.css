@@ -2,7 +2,7 @@
 	background-color: #28a452;
 }
 .bg-blue{
-	background-color: #002436;
+	background-color: #003348;
 }
 .bg-img{
 	background-image: url("../img/carousel-bg.jpg");
@@ -10,11 +10,23 @@
   	background-repeat: no-repeat;
  	background-position: center;
 }
+.bg-gs{
+	background-color: rgba(47,107,84, 0.7);
+}
+.bg-oop{
+	background-color: rgba(250,105,0, 0.7);
+}
 .fs-1{
 	font-size: 4em;
 }
 .t-w{
 	color:white;
+}
+.t-g{
+	color:gray;
+}
+.t-o{
+	color: #FA6900;
 }
 /*Paleta de colores*/
 /*bgS RENGLON 1*/
