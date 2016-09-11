@@ -31,6 +31,9 @@
   	background-repeat: no-repeat;
  	background-position: center;
 }
+.bg-img2{
+	background-image: url("../img/img-divider-img.jpg");
+}
 .bg-gs{
 	background-color: rgba(47,107,84, 0.7);
 }
