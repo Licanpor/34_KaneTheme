@@ -13,13 +13,13 @@
       <link rel="stylesheet" href="./css/animate.css">
       <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
    </head>
-   <body>
+   <body class="animated fadeIn ">
       <header class="bg-green">
          <div class="row">
             <nav class="navbar navbar-inverse">
                <div class="container">
                   <div class="col-xs-8 col-sm-2 col-md-3 col-lg-3">
-                     <a href="#"><img class="" src="img/logo.png" alt="Logo"></a>
+                     <a href="#"><img class="img-responsive animated bounceInLeft" src="img/logo.png" alt="Logo"></a>
                   </div>
                   <div class="col-xs-4 col-sm-10 col-md-9 col-lg-9">
                   <!-- Hamburguesa -->
@@ -155,7 +155,7 @@
          <div class="container">
             <div class="row text-center pd-r">
                <div class="col-lg-12">
-                  <p class="fs-1">ABOUT US</p>
+                  <p id="about" class="fs-1">ABOUT US</p>
                   <hr>
                </div> <!-- /.col -->
             </div> <!-- /.row title-->
@@ -206,28 +206,27 @@
          <div class="container">
             <div class="row t-w text-center pd-r">
                <div class="col-lg-12">
-                  <p class="fs-1">WHAT WE DO</p>
+                  <p id="service" class="fs-1">WHAT WE DO</p>
                   <hr>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quasi, optio.</p>
                </div> <!-- /.col -->
             </div> <!-- /.row title-->
             <!-- SERVICIOS -->
             <div class="row text-center">
-               <div class="col-lg-4">
-                  <div class="blue-box center-block"><img class="mob-icon img-responsive center-block" src="img/icons/webdesign.png" alt="Webdesing"></div>
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="blue-box center-block rot"><img class="mob-icon img-responsive center-block" src="img/icons/webdesign.png" alt="Webdesing"></div>
                   <h3 class="t-w">WEB DESIGN</h3>
-                  <p class="t-g">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa labore illum numquam pariatur eum nemo eius ut ipsum alias, ratione perferendis ab earum obcaecati voluptatem dolores rem, maiores neque commodi?</p>
+                  <p class="t-g visible-md visible-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa labore illum numquam pariatur eum nemo eius ut ipsum alias, ratione perferendis ab earum obcaecati voluptatem dolores rem, maiores neque commodi?</p>
                </div>
-               <div class="col-lg-4">
-                  <div class="blue-box center-block"><img class="mob-icon img-responsive center-block" src="img/icons/graphicdesign.png" alt="Graphicdesign"></div>
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="blue-box center-block rot"><img class="mob-icon img-responsive center-block" src="img/icons/graphicdesign.png" alt="Graphicdesign"></div>
                   <h3 class="t-w">GRAPHIC DESIGN</h3>
-                  <p class="t-g">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eos eaque commodi quasi mollitia necessitatibus odio cum nesciunt odit expedita architecto, itaque dolore officiis non dolores placeat iusto blanditiis deleniti?</p>
+                  <p class="t-g visible-md visible-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eos eaque commodi quasi mollitia necessitatibus odio cum hitecto, itaque dolore officiis non dolores placeat iusto blanditiis deleniti?</p>
                </div>
-               <div class="col-lg-4 bg-gs">
-                  <div id="org-box" class="bg-oop center-block"><img class="img-responsive  mob-icon" src="img/icons/mobile.png" alt="Mobile"></div>
-                  <h3 class="t-o">MOBILE APP</h3>
-                  <hr>
-                  <p class="t-g">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dicta, esse enim, a reiciendis nostrum quo veniam cum et pariatur, harum sequi mollitia laudantium recusandae saepe. Dignissimos voluptatem quae culpa.</p>
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="blue-box center-block rot"><img class="img-responsive  mob-icon" src="img/icons/mobile.png" alt="Mobile"></div>
+                  <h3 class="t-w">MOBILE APP</h3>
+                  <p class="t-g visible-md visible-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dicta, esse enim, a reiciendis nostrum quo veniam cum et pariatur, harum sequi mollitia laudantium recusandae saepe. Dignissimos voluptatem quae culpa.</p>
                </div>
             </div><!-- /.servicios ROW -->
             <div class="row text-center">
@@ -238,7 +237,7 @@
             <!-- TEAM -->
             <div class="row t-w text-center pd-r visible-lg visible-md">
                 <div class="col-lg-12">
-                  <p class="fs-1">OUR AWESOME TEAM</p>
+                  <p id="team" class="fs-1">OUR AWESOME TEAM</p>
                   <hr>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quasi, optio.</p>
                </div> <!-- /.col -->
@@ -388,14 +387,14 @@
          <div class="container">
             <div class="row t-w text-center pd-r">
                 <div class="col-lg-12">
-                  <p class="fs-1">BEST PRICE GUARANTEED</p>
+                  <p id="price" class="fs-1">BEST PRICE GUARANTEED</p>
                   <hr>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quasi, optio.</p>
                </div> <!-- /.col -->
             </div> <!-- /.row title -->
             <div class="row">
                <div class="mg-j col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                  <div class="brdr-g">
+                  <div class="brdr-g box">
                      <div class="bg-oop pd-d">
                         <p>STARTER</p>
                      </div>
@@ -427,7 +426,7 @@
                   </div><!-- /.brdr-g -->
                </div><!-- /.COL -->
                <div class="mg-j col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                  <div class="brdr-g">
+                  <div class="brdr-g box">
                      <div class="pd-d">
                         <p>BASIC</p>
                      </div>
@@ -459,7 +458,7 @@
                   </div><!-- /.brdr-g -->
                </div><!-- /.COL -->
                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                  <div class="brdr-g">
+                  <div class="brdr-g box">
                      <div class="pd-d">
                         <p>FEATURE</p>
                      </div>
@@ -491,7 +490,7 @@
                   </div><!-- /.brdr-g -->
                </div><!-- /.COL -->
                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                  <div class="brdr-g">
+                  <div class="brdr-g box">
                      <div class="pd-d">
                         <p>PROFESSIONAL</p>
                      </div>
@@ -525,7 +524,7 @@
             <!-- CLIENTES -->
             <div class="row t-w text-center pd-r pd-t visible-md visible-lg">
                 <div class="col-md-12 col-lg-12">
-                  <p class="fs-1">WHAT OUR CLIENTS SAY</p>
+                  <p id="clients" class="fs-1">WHAT OUR CLIENTS SAY</p>
                   <hr>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quasi, optio.</p>
                </div> <!-- /.col -->
@@ -547,7 +546,7 @@
             <!-- CONTACT -->
             <div class="row t-w text-center pd-r pd-t">
                 <div class="col-lg-12">
-                  <p class="fs-1">GET IN TOUCH</p>
+                  <p id="contact" class="fs-1">GET IN TOUCH</p>
                   <hr>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quasi, optio.</p>
                </div> <!-- /.col -->
@@ -579,7 +578,7 @@
          <div class="container">
             <div class="row text-center">
                <div class="col-lg-12 ">
-                  <ul class="nav nav-pills reds">
+                  <ul id="facts" class="nav nav-pills reds">
                      <li>
                         <a href="#"><span class="fa fa-7x fa-facebook-square"></span></a>
                      </li>

@@ -5,7 +5,9 @@ p{
 }
 .btn-hire{
 	margin-bottom: 10%;
+	margin-top: 10%;
 }
+
 /*PADDING*/
 header, .btn-hire{
 	padding: 1%;
@@ -87,21 +89,28 @@ hr{
 .bg-oop{
 	background-color: rgba(250,105,0, 0.7);
 }
+.rot, .box {
+ 	-webkit-transition: -webkit-transform 1s ease-out;
+ 	transition: transform 1s ease-out;
+}
+.rot:hover {
+ 	-webkit-transform: rotate(360deg);
+ 	transform: rotate(360deg);
+}
+.box:hover{
+	-webkit-transform: translate(0%, -10%);
+ 	transform: translate(0%, -10%);
+}
 .mob-icon{
 	position: absolute;
 	top: 50%; 
   	left: 50%;
 	transform: translate(-50%,-50%);
 }
-
-#org-box, .blue-box{
+.blue-box{
 	position: relative;
 	width: 130px;
   	height: 130px;
-  	
-}
-#org-box{
-	transform: rotate(45deg);
 }
 /*Paleta de colores*/
 .bg-cp1, .bg-cp2, .bg-cp3, .bg-cp4, .bg-cp5, .bg-cp6, .bg-cp7, .bg-cp8, .bg-cp9, .bg-cp10, .bg-cp11, .bg-cp12, .bg-cp13, .bg-cp14, .bg-cp15, .bg-cp16, .bg-cp17, .bg-cp18, .bg-cp19, .bg-cp20, .bg-cp21, .bg-cp22, .bg-cp23, .bg-cp24, .bg-cp25{
