@@ -3473,7 +3473,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   max-width: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #dddddd;
+  /*border-bottom: 1px solid #dddddd;*/
 }
 .nav-tabs > li {
   float: left;
@@ -3647,7 +3647,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   width: 100%;
 }
 .navbar:before,
@@ -3983,7 +3983,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #28a452;
+  background-color: #2b3959;
   border-color: #202b43;
 }
 .navbar-default .navbar-brand {

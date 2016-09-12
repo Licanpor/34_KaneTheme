@@ -1,0 +1,43 @@
+@media screen and (max-width:995px)  {
+	.reds li a span{
+		font-size: 60px;
+	}
+	.fs-1{
+		font-size: 3em;
+	}
+	h3, em{
+		font-size: 1em;
+	}
+	.bg-cp1, .bg-cp2, .bg-cp3, .bg-cp4, .bg-cp5, .bg-cp6, .bg-cp7, .bg-cp8, .bg-cp9, .bg-cp10, .bg-cp11, .bg-cp12, .bg-cp13, .bg-cp14, .bg-cp15, .bg-cp16, .bg-cp17, .bg-cp18, .bg-cp19, .bg-cp20, .bg-cp21, .bg-cp22, .bg-cp23, .bg-cp24, .bg-cp25{
+	height: 100px;
+	}
+	.bg-cp1 p, .bg-cp2 p, .bg-cp3 p, .bg-cp4 p, .bg-cp5 p, .bg-cp6 p, .bg-cp7 p, .bg-cp8 p, .bg-cp9 p, .bg-cp10 p, .bg-cp11 p, .bg-cp12 p, .bg-cp13 p, .bg-cp14 p, .bg-cp15 p, .bg-cp16 p, .bg-cp17 p, .bg-cp18 p, .bg-cp19 p, .bg-cp20 p, .bg-cp21 p, .bg-cp22 p, .bg-cp23 p, .bg-cp24 p, .bg-cp25 p{
+	font-size: 9px;
+	}
+	.mg-j{
+		margin-bottom: 2%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.reds li a span{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 12px;
+	}
+	.fs-1{
+		font-size: 24px;
+	}
+	.bg-cp1, .bg-cp2, .bg-cp3, .bg-cp4, .bg-cp5, .bg-cp6, .bg-cp7, .bg-cp8, .bg-cp9, .bg-cp10, .bg-cp11, .bg-cp12, .bg-cp13, .bg-cp14, .bg-cp15, .bg-cp16, .bg-cp17, .bg-cp18, .bg-cp19, .bg-cp20, .bg-cp21, .bg-cp22, .bg-cp23, .bg-cp24, .bg-cp25{
+	height: 80px;
+	}
+	.bg-cp1 p, .bg-cp2 p, .bg-cp3 p, .bg-cp4 p, .bg-cp5 p, .bg-cp6 p, .bg-cp7 p, .bg-cp8 p, .bg-cp9 p, .bg-cp10 p, .bg-cp11 p, .bg-cp12 p, .bg-cp13 p, .bg-cp14 p, .bg-cp15 p, .bg-cp16 p, .bg-cp17 p, .bg-cp18 p, .bg-cp19 p, .bg-cp20 p, .bg-cp21 p, .bg-cp22 p, .bg-cp23 p, .bg-cp24 p, .bg-cp25 p{
+	font-size: 7px;
+	}
+}
+@media screen and (min-width: 995px){
+	.mg-j1{
+		margin-bottom: 2%;
+	}
+}
