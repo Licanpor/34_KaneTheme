@@ -17,6 +17,9 @@
 	.mg-j{
 		margin-bottom: 2%;
 	}
+	.bdr-bP{
+		margin-top: 40px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -34,6 +37,9 @@
 	}
 	.bg-cp1 p, .bg-cp2 p, .bg-cp3 p, .bg-cp4 p, .bg-cp5 p, .bg-cp6 p, .bg-cp7 p, .bg-cp8 p, .bg-cp9 p, .bg-cp10 p, .bg-cp11 p, .bg-cp12 p, .bg-cp13 p, .bg-cp14 p, .bg-cp15 p, .bg-cp16 p, .bg-cp17 p, .bg-cp18 p, .bg-cp19 p, .bg-cp20 p, .bg-cp21 p, .bg-cp22 p, .bg-cp23 p, .bg-cp24 p, .bg-cp25 p{
 	font-size: 7px;
+	}
+	.bdr-bP{
+		margin-top: 40px;
 	}
 }
 @media screen and (min-width: 995px){
