@@ -42,6 +42,12 @@
 		margin-top: 40px;
 	}
 }
+@media screen and (max-width: 480px) {
+	.bdr-bP{
+		margin-top: 40px;
+	}
+}
+
 @media screen and (min-width: 995px){
 	.mg-j1{
 		margin-bottom: 2%;
