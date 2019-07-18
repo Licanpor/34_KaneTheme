@@ -12,6 +12,69 @@
       <link rel="stylesheet" href="./css/queries.css">
       <link rel="stylesheet" href="./css/animate.css">
       <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+      <script type="text/javascript">
+         //create empty apntag object if it doesn't exist
+         var apntag = apntag || {};
+         //create a queue on the apntag object
+         apntag.anq = apntag.anq || [];
+         //load ast.js - async
+         (function() {
+            var d = document, e = d.createElement('script'), p = d.getElementsByTagName('head')[0];
+            e.type = 'text/javascript';  e.async = true;
+            e.src = '//acdn.adnxs.com/ast/ast.js';
+            p.insertBefore(e, p.firstChild);
+         })();
+         //push commands to loading queue, to allow for async loading
+         apntag.anq.push(function() {
+            //set global page options
+            apntag.setPageOpts({
+               member: 958,
+               disablePsa: false,
+
+            });
+            //define ad tags
+            apntag.defineTag({
+               invCode: 'slot_1',
+               targetId: 'ad_slot_1',
+               sizeMapping: [
+                   {
+                      "minWidth": 767,
+                      "sizes": [[728,90]]
+                   },
+                  {
+                     "minWidth": 0,
+                     "sizes": [[320,50]]
+                  }
+               ]
+            });
+            apntag.defineTag({
+               invCode: 'slot_2',
+               targetId: 'ad_slot_2',
+               sizes: [[300,600]]
+            });
+            apntag.defineTag({
+               invCode: 'slot_3',
+               targetId: 'ad_slot_3',
+               sizeMapping: [
+                   {
+                      "minWidth": 767,
+                      "sizes": [[300,250]]
+                   },
+                  {
+                     "minWidth": 0,
+                     "sizes": [[120,240]]
+                  }
+               ]
+            });
+            apntag.defineTag({
+               invCode: 'slot_4',
+               targetId: 'ad_slot_4',
+               sizes: [[320,100]]
+            });
+            //start loading tags
+            apntag.loadTags();
+         });
+      </script>
    </head>
    <body class="animated fadeIn ">
       <header class="bg-green">
@@ -46,7 +109,7 @@
             </nav>
          </div> <!-- /.row bg-green -->        
       </header>
-      <section class="row bg-img"> <!-- WELCOME -->
+      <section class=" bg-img"> <!-- WELCOME -->
       <div class="container">
          <div class="col-lg-12 text-center t-w">
             <p class="fs-1">BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</p>
@@ -54,8 +117,16 @@
          </div>
          </div>
       </section>
+      <div id="ad_slot_1" class=" ad ad_slot_1">
+         <script type="text/javascript">
+            apntag.anq.push(function() {
+               //signal to script that this DOM element has been loaded and is ready to be populated with an ad
+               apntag.showTag('ad_slot_1');
+            });
+        </script>
+      </div>
       <!-- PALETA DE COLORES -->
-      <section class="text-center"> 
+      <section class="text-center section_1">
          <div class="container">
             <div class="row pd-r">
                <div class="col-lg-12">
@@ -196,7 +267,14 @@
                   <p>PHOTOSHOP/ILLUSTRATOR</p>
                </div>
                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                  <img class="img-responsive" src="img/agency-img3.jpg" alt="Agency">
+                  <div id="ad_slot_2" class="ad ad_slot_2">
+                     <script type="text/javascript">
+                        apntag.anq.push(function() {
+                           //signal to script that this DOM element has been loaded and is ready to be populated with an ad
+                           apntag.showTag('ad_slot_2');
+                        });
+                     </script>
+                  </div>
                </div>
             </div> <!-- /.ROW -->
          </div> <!-- /.container -->
@@ -213,17 +291,17 @@
             </div> <!-- /.row title-->
             <!-- SERVICIOS -->
             <div class="row text-center">
-               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <div class="blue-box center-block rot"><img class="mob-icon img-responsive center-block" src="img/icons/webdesign.png" alt="Webdesing"></div>
                   <h3 class="t-w">WEB DESIGN</h3>
                   <p class="t-g visible-md visible-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa labore illum numquam pariatur eum nemo eius ut ipsum alias, ratione perferendis ab earum obcaecati voluptatem dolores rem, maiores neque commodi?</p>
                </div>
-               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <div class="blue-box center-block rot"><img class="mob-icon img-responsive center-block" src="img/icons/graphicdesign.png" alt="Graphicdesign"></div>
                   <h3 class="t-w">GRAPHIC DESIGN</h3>
                   <p class="t-g visible-md visible-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus eos eaque commodi quasi mollitia necessitatibus odio cum hitecto, itaque dolore officiis non dolores placeat iusto blanditiis deleniti?</p>
                </div>
-               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <div class="blue-box center-block rot"><img class="img-responsive  mob-icon" src="img/icons/mobile.png" alt="Mobile"></div>
                   <h3 class="t-w">MOBILE APP</h3>
                   <p class="t-g visible-md visible-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dicta, esse enim, a reiciendis nostrum quo veniam cum et pariatur, harum sequi mollitia laudantium recusandae saepe. Dignissimos voluptatem quae culpa.</p>
@@ -231,9 +309,17 @@
             </div><!-- /.servicios ROW -->
             <div class="row text-center">
                <div class="col-lg-12">
-                  <button type="button" class="btn-hire btn btn-primary">HIRE US NOW!</button>
+                  <button type="button" class="btn btn-primary btn_1">HIRE US NOW!</button>
                </div><!-- /.COL -->
             </div><!-- /.ROW -->
+            <div id="ad_slot_3" class="ad ad_slot_3">
+               <script type="text/javascript">
+                  apntag.anq.push(function() {
+                     //signal to script that this DOM element has been loaded and is ready to be populated with an ad
+                     apntag.showTag('ad_slot_3');
+                  });
+               </script>
+            </div>
             <!-- TEAM -->
             <div class="row t-w text-center pd-r visible-lg visible-md">
                 <div class="col-lg-12">
@@ -489,7 +575,7 @@
                      </div>
                   </div><!-- /.brdr-g -->
                </div><!-- /.COL -->
-               <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 bdr-bP" style="border">
+               <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 bdr-bP" style="border;">
                   <div class="brdr-g box">
                      <div class="pd-d">
                         <p>PROFESSIONAL</p>
@@ -572,6 +658,14 @@
                </div><!-- /.col -->
             </div><!-- /.row form -->
          </div> <!-- /.container prices -->
+         <div id="ad_slot_4" class="ad ad_slot_4 visible-sm visible-xs">
+            <script type="text/javascript">
+               apntag.anq.push(function() {
+                  //signal to script that this DOM element has been loaded and is ready to be populated with an ad
+                  apntag.showTag('ad_slot_4');
+               });
+            </script>
+         </div>
       </section>
       <!-- REDES SOCIALES -->
       <section class="bg-img2">
